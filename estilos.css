@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  background-image: url("galeria/imagenes/Kamehouse.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+
+.container {
+  text-align: center;                     
+  background-color: rgba(255, 255, 255, 0.2); 
+  border-radius: 15px;
+  margin: 20px;
+  padding: 2em;
+  font-size: 1rem;
+}
+
+.card {
+  display: inline-block;
+  vertical-align: top;                 
+  margin: 1.5em;    
+  width: 250px;                                      
+  height: 500px;
+  padding: 2em; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;  
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;                      
+}
+
+.card:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;          
+  object-fit: contain;   
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card h2 {
+  font-size: 30px;
+  margin: 10px;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.card p {
+ font-size: 1rem;
+}
+
+.hex {
+  background-color: #bdd8fa;     
+  color: #ff4500;             
+}
+.hex button {
+  background-color: #1230b4; 
+}
+
+.rgb1 {
+  background-color: rgb(253, 216, 104);
+  color: rgb(5, 110, 214);
+}
+.rgb1 button {
+  background-color: rgb(179, 117, 24);    
+}
+
+.rgb2 {
+  background-image: linear-gradient(135deg, rgb(220, 255, 220), rgb(56, 128, 56));
+  color: rgb(8, 99, 8);              
+  background-position: right;
+}
+.rgb2 button {
+  background-color: rgb(60, 1, 155);  
+}
+
+.rgb3 {
+  background: linear-gradient(135deg, rgb(255, 250, 240), rgb(255, 200, 200));
+  color: rgb(199, 21, 133); 
+  background-position: center;
+}
+.rgb3 button {
+  background-color: rgb(255, 140, 0);   
+}
+
+.rgb4 {
+  background: radial-gradient(circle, rgb(200, 230, 255), rgb(132, 167, 207));
+  color: rgb(75, 0, 130);  
+  background-position: center;             
+}
+.rgb4 button {
+  background-color: rgb(255, 20, 147);  
+}
+
+.galeria-vh-vw {
+  font-size: 30px; 
+  text-align: center;
+  width: 80vw;  
+  height: 50vh; 
+  background-color: rgba(252, 252, 252, 0.3);
+  margin: 2vh auto;
+  border-radius: 10px;
+}
+
+.extra-image img {
+  max-width: auto;
+  height: auto;    
+  display: block;  
+  margin: auto;   
+  border-radius: 10px;
+}
+
+.card button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.card button:hover {
+  opacity: 0.8;
+}
+
+.extra {
+  padding: 40px;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 20px;              
+  text-transform: uppercase;  
+  text-align: center;
+  letter-spacing: 1.5px;         
+  line-height: 1.6;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.rgb3 h2 {
+  text-transform: none;    
+  letter-spacing: 1.5px;        
+  text-shadow: 0 2px 3px rgba(0,0,0,0.35); 
+}
+
+.rgb3 p {
+  letter-spacing: 0.6px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+  line-height: 1.55;          
+}
