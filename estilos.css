@@ -8,7 +8,7 @@ body {
   background-image: url("galeria/imagenes/Kamehouse.png");
   background-size: cover;
   background-position: center;
-  background-attachment: scroll;
+  background-attachment: fixed;
   }
 
 .container {
@@ -119,6 +119,9 @@ body {
   left: 50%; 
   transform: translate(-50%, -50%); 
   text-align: center;
+  max-width: 90%;   /* el texto nunca será más ancho que el contenedor */
+  white-space: normal; /* permite saltos de línea */
+  margin: 0;
 }
 
 
